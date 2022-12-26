@@ -1,106 +1,87 @@
+import youstore from "./images/youstore.jpeg";
+
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
-      ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
-      {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
-  }
-  
-  export default resumeData
+  imagebaseurl: "",
+  name: "Victor Miene",
+  role: "Backend Engineer",
+  linkedinId: "https://www.linkedin.com/in/victormiene/",
+  email: "viktormiene.vm@gmail.com",
+  skypeid: "",
+  roleDescription:
+    "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+  socialLinks: [
+    {
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/victormiene/",
+      className: "fa fa-linkedin",
+    },
+    {
+      name: "github",
+      url: "https://github.com/Douyemiene",
+      className: "fa fa-github",
+    },
+    {
+      name: "skype",
+      url: "https://twitter.com/DouyeSzn",
+      className: "fa fa-twitter",
+    },
+  ],
+  aboutme:
+    "👋🏽 Hi, my name is Victor. I am a graduate with a Bachelor's of Engineering, Electrical and Electronics Engineering . (July 2021). \n I am experienced in developing and maintaining the backend of enterprise applications. Interested about applying my understanding of distributed systems to help create reliable software systems.",
+  address: "Lagos, Nigeria",
+  website: "https://rbhatia46.github.io",
+  education: [
+    {
+      UniversityName: "Niger Delta University",
+      specialization: "Electrical and Electronics Engineering",
+      MonthOfPassing: "Jul",
+      YearOfPassing: "2020",
+      Achievements: "First Class Honors (4.61/5.00)",
+    },
+  ],
+  work: [
+    {
+      CompanyName: "Youverify",
+      specialization: "Software Engineer",
+      MonthOfLeaving: "",
+      YearOfLeaving: "Dec 2021 - Present",
+      Achievements: "Some Achievements",
+    },
+    {
+      CompanyName: "Genesys Tech Hub",
+      specialization: "Software Engineer Intern",
+      MonthOfLeaving: "",
+      YearOfLeaving: "Aug 2021 - Dec 2021",
+      Achievements: "Some Achievements",
+    },
+  ],
+  skillsDescription:
+    "JavaScript, Nodejs, MongoDB, Elastic search, RabbitMQ, GRPC, Docker Data structures and Algorithms, React, Python.",
+  skills: [],
+  portfolio: [
+    {
+      name: "Youstore",
+      description: "Youstore",
+      imgurl: youstore,
+      url: "https://youstore-staging.netlify.app/",
+    },
+    {
+      name: "project2",
+      description: "mobileapp",
+      imgurl: "images/portfolio/project.jpg",
+    },
+    {
+      name: "project3",
+      description: "mobileapp",
+      imgurl: "images/portfolio/project2.png",
+    },
+    {
+      name: "project4",
+      description: "mobileapp",
+      imgurl: "images/portfolio/phone.jpg",
+    },
+  ],
+  testimonials: [],
+};
+
+export default resumeData;
