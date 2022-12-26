@@ -1,4 +1,5 @@
 import youstore from "./images/youstore.jpeg";
+import audophile from "./images/audophile.jpeg";
 
 let resumeData = {
   imagebaseurl: "",
@@ -60,25 +61,27 @@ let resumeData = {
   skills: [],
   portfolio: [
     {
+      name: "Audophile",
+      description: "mobileapp",
+      imgurl: audophile,
+    },
+    {
       name: "Youstore",
       description: "Youstore",
       imgurl: youstore,
       url: "https://youstore-staging.netlify.app/",
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "Youstore",
+      description: "Youstore",
+      imgurl: youstore,
+      url: "https://youstore-staging.netlify.app/",
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "Youstore",
+      description: "Youstore",
+      imgurl: youstore,
+      url: "https://youstore-staging.netlify.app/",
     },
   ],
   testimonials: [],

@@ -9,7 +9,8 @@ export default class Porfolio extends Component {
             <h1>Check Out Some of My Works.</h1>
             <div
               id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
+              className="bgrid-halves s-bgrid-thirds x"
+              style={{ display: "flex", flexWrap: 'wrap' }}
             >
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item) => {
