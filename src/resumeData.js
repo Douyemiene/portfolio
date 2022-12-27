@@ -2,16 +2,16 @@ import youstore from "./images/youstore.jpeg";
 import audophile from "./images/audophile.jpeg";
 import crwn from "./images/crwn.jpeg"
 import crypto from "./images/crypto.jpeg"
+import music from "./images/musicplayer.jpeg"
 
 let resumeData = {
   imagebaseurl: "",
   name: "Victor Miene",
-  role: "Backend Engineer",
+  role: "Software Engineer who works primarily on the backend",
   linkedinId: "https://www.linkedin.com/in/victormiene/",
   email: "viktormiene.vm@gmail.com",
   skypeid: "",
-  roleDescription:
-    " I like dabbling in various parts of software engineering and like to learn about new technologies.",
+  roleDescription: "",
   socialLinks: [
     {
       name: "linkedin",
@@ -48,21 +48,24 @@ let resumeData = {
       specialization: "Backend Engineer",
       MonthOfLeaving: "",
       YearOfLeaving: "Sept 2022 - Present",
-      Achievements: "",
+      Achievements:
+        "Contributed to the design and development of Youverify’s address verification product, which resulted in the automation of the confirmation of over a million physical addresses of individuals and businesses.",
     },
     {
       CompanyName: "Youverify",
       specialization: "Software Engineer intern",
       MonthOfLeaving: "",
       YearOfLeaving: "Dec 2021 - Aug 2022",
-      Achievements: "",
+      Achievements:
+        "Optimized time duration for unit tests by 80% by redesigning test suites to utilize mocks to mimic asynchronous calls to external APIs",
     },
     {
       CompanyName: "Genesys Tech Hub",
       specialization: "Software Engineer Intern",
       MonthOfLeaving: "",
       YearOfLeaving: "Aug 2021 - Dec 2021",
-      Achievements: "",
+      Achievements:
+        "Collaborated, within a team of 5 developers, to build an educational platform that enlightens students about the African continent. ",
     },
   ],
   skillsDescription:
@@ -70,28 +73,39 @@ let resumeData = {
   skills: [],
   portfolio: [
     {
-      name: "Audophile",
-      description: "mobileapp",
+      name: "Audophile E-commerce",
+      description: "",
       imgurl: audophile,
+      github: "https://github.com/Douyemiene/Audophile-Ecommerce",
       url: "https://audophile-ecommerce.vercel.app",
     },
     {
       name: "Crypto Dashboard",
       description: "Youstore",
       imgurl: crypto,
+      github: "https://github.com/Douyemiene/crypto-dashboard",
       url: "https://dashboard-cs.vercel.app/",
-    },
-    {
-      name: "Youstore",
-      description: "Youstore",
-      imgurl: youstore,
-      url: "https://youstore-staging.netlify.app/",
     },
     {
       name: "Crwn clothing",
       description: "Youstore",
       imgurl: crwn,
+      github: "https://github.com/Douyemiene/e-shop",
       url: "https://e-shop-coral.vercel.app",
+    },
+    {
+      name: "Youstore",
+      description: "Youstore",
+      imgurl: youstore,
+      github: "https://github.com/Douyemiene/youstore-order-service",
+      url: "https://youstore-staging.netlify.app/",
+    },
+    {
+      name: "Music Player Dashboard",
+      description: "Youstore",
+      imgurl: music,
+      github: "https://github.com/Douyemiene/music-player",
+      url: "https://music-player-liard-rho.vercel.app/",
     },
   ],
   testimonials: [],
