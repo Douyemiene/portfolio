@@ -32,7 +32,6 @@ let resumeData = {
   aboutme:
     "👋🏽 Hi, my name is Victor. I am a graduate with a Bachelor's of Engineering, Electrical and Electronics Engineering . (July 2021). \n I am experienced in developing and maintaining the backend of enterprise applications. Interested about applying my understanding of distributed systems to help create reliable software systems.",
   address: "Lagos, Nigeria",
-  email: "viktormiene.vm@gmail.com",
   website: "",
   education: [
     {
