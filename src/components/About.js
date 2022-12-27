@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profilepic from "./images/profilepic.jpeg";
+import profilepic from "../images/profilepic.jpeg";
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -19,6 +19,8 @@ export default class About extends Component {
                 <h2>Contact Details</h2>
                 <p className="address">
                   <span>{resumeData.name}</span>
+                  <br></br>
+                  <span>{resumeData.email}</span>
                   <br></br>
                   <span>{resumeData.address}</span>
                   <br></br>
