@@ -1,8 +1,8 @@
 import youstore from "./images/youstore.jpeg";
 import audophile from "./images/audophile.jpeg";
-import crwn from "./images/crwn.jpeg"
-import crypto from "./images/crypto.jpeg"
-import music from "./images/musicplayer.jpeg"
+import crwn from "./images/crwn.jpeg";
+import crypto from "./images/crypto.jpeg";
+import music from "./images/musicplayer.jpeg";
 
 let resumeData = {
   imagebaseurl: "",
@@ -52,8 +52,8 @@ let resumeData = {
         "Contributed to the design and development of Youverify’s address verification product, which resulted in the automation of the confirmation of over a million physical addresses of individuals and businesses.",
     },
     {
-      CompanyName: "Youverify",
-      specialization: "Software Engineer intern",
+      CompanyName: "",
+      specialization: "Software Engineer Intern",
       MonthOfLeaving: "",
       YearOfLeaving: "Dec 2021 - Aug 2022",
       Achievements:
@@ -80,11 +80,11 @@ let resumeData = {
       url: "https://audophile-ecommerce.vercel.app",
     },
     {
-      name: "Crypto Dashboard",
+      name: "Music Player Dashboard",
       description: "Youstore",
-      imgurl: crypto,
-      github: "https://github.com/Douyemiene/crypto-dashboard",
-      url: "https://dashboard-cs.vercel.app/",
+      imgurl: music,
+      github: "https://github.com/Douyemiene/music-player",
+      url: "https://music-player-liard-rho.vercel.app/",
     },
     {
       name: "Crwn clothing",
@@ -101,11 +101,11 @@ let resumeData = {
       url: "https://youstore-staging.netlify.app/",
     },
     {
-      name: "Music Player Dashboard",
+      name: "Crypto Dashboard",
       description: "Youstore",
-      imgurl: music,
-      github: "https://github.com/Douyemiene/music-player",
-      url: "https://music-player-liard-rho.vercel.app/",
+      imgurl: crypto,
+      github: "https://github.com/Douyemiene/crypto-dashboard",
+      url: "https://dashboard-cs.vercel.app/",
     },
   ],
   testimonials: [],
