@@ -100,13 +100,6 @@ let resumeData = {
       github: "https://github.com/Douyemiene/youstore-order-service",
       url: "https://youstore-staging.netlify.app/",
     },
-    {
-      name: "Crypto Dashboard",
-      description: "Youstore",
-      imgurl: crypto,
-      github: "https://github.com/Douyemiene/crypto-dashboard",
-      url: "https://dashboard-cs.vercel.app/",
-    },
   ],
   testimonials: [],
 };
