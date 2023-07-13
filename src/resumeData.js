@@ -30,7 +30,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "👋🏽 Hi, my name is Victor. I am a graduate with a Bachelor's of Engineering, Electrical and Electronics Engineering . (July 2021). \n I am experienced in developing and maintaining the backend of enterprise applications. Interested about applying my understanding of distributed systems to help create reliable software systems.",
+    "👋🏽 Hi, my name is Victor. I am experienced in developing and maintaining the backend of enterprise applications. Interested about applying my understanding of distributed systems to help create reliable software systems. I am a also graduate with a Bachelor's of Engineering, Electrical and Electronics Engineering . (July 2021).",
   address: "Lagos, Nigeria",
   website: "",
   education: [
@@ -47,18 +47,18 @@ let resumeData = {
       CompanyName: "Youverify",
       specialization: "Backend Engineer",
       MonthOfLeaving: "",
-      YearOfLeaving: "Sept 2022 - Present",
+      YearOfLeaving: "Dec 2021 - Present",
       Achievements:
         "Contributed to the design and development of Youverify’s address verification product, which resulted in the automation of the confirmation of over a million physical addresses of individuals and businesses.",
     },
-    {
-      CompanyName: "",
-      specialization: "Software Engineer Intern",
-      MonthOfLeaving: "",
-      YearOfLeaving: "Dec 2021 - Aug 2022",
-      Achievements:
-        "Optimized time duration for unit tests by 80% by redesigning test suites to utilize mocks to mimic asynchronous calls to external APIs",
-    },
+    // {
+    //   CompanyName: "",
+    //   specialization: "Software Engineer Intern",
+    //   MonthOfLeaving: "",
+    //   YearOfLeaving: "Dec 2021 - Aug 2022",
+    //   Achievements:
+    //     "Optimized time duration for unit tests by 80% by redesigning test suites to utilize mocks to mimic asynchronous calls to external APIs",
+    // },
     {
       CompanyName: "Genesys Tech Hub",
       specialization: "Software Engineer Intern",
